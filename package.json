@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/slicehead",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Slice CSV/TSV head tables for quick inspection and cleanup.",
+  "bin": {
+    "slicehead": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/slicehead.git"
+  },
+  "homepage": "https://theworker02.github.io/slicehead/",
+  "keywords": [
+    "slice",
+    "head",
+    "csv",
+    "cli",
+    "toolkit"
+  ]
+}
